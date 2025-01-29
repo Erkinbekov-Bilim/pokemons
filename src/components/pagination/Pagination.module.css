@@ -1,0 +1,20 @@
+.pagination_box{
+    margin: 0 auto 30px;
+    width: 280px;
+    padding-top: 30px;
+    color: white;
+    align-content: center;
+    gap: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.pagination_box p, button{
+    width: 80px;
+    padding: 9px 0;
+    height: 40px;
+    text-align: center;
+    border-radius: 8px;
+    border: 1px solid white;
+
+}

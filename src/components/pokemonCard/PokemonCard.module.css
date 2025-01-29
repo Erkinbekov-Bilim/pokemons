@@ -1,0 +1,143 @@
+.pokemon_item{
+    width: 340px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    background: rgba(0, 0, 0, 0.46);
+    align-items: center;
+    border-radius: 8px;
+    gap: 30px;
+    border: 1px solid #ffffff;
+    /*padding: 16px;*/
+    text-align: center;
+    color: white;
+    font-family: sans-serif;
+}
+
+.pokemon_item img{
+    width: 115px;
+    height: 120px;
+}
+
+.pokemon_card{
+    display: flex;
+    flex-direction: column;
+}
+
+.pokemon_info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+
+}
+
+.pokemon_info button{
+    cursor: pointer;
+    width: 316px;
+    height: 42px;
+    background-color: #BD00FF;
+    color: white;
+    border: 1px solid white;
+    border-radius: 8px;
+    text-align: center;
+    transition: background-color 200ms ease-in-out;
+}
+
+.pokemon_info button:hover{
+    background: black;
+    border: 1px solid white;
+    color: white;
+}
+
+
+
+.pokemon_text{
+    color: #ffffff;
+    font-family: sans-serif;
+    margin: 10px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.pokemon_name{
+    font-weight: 700;
+    font-size: 24px;
+    font-family: sans-serif;
+    color: #ffffff;
+}
+
+.pokemon_name::first-letter{
+    text-transform: uppercase;
+}
+
+.link{
+    cursor: pointer;
+    text-decoration: none;
+    background: none;
+    margin: 10px;
+    padding: 10px 0;
+    border-radius: 8px;
+    border: 1px solid #ffffff;
+    font-weight: 600;
+    color: white;
+    font-family: sans-serif;
+    transition: 300ms;
+}
+
+.link:hover{
+    background: rgba(151, 103, 178, 0.49);
+    color: white;
+}
+
+.modal_content{
+    width: 473px;
+    height: 431px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+}
+
+.modal_img{
+    width: 142px;
+    height: 170px;
+    display: flex;
+    gap: 22px;
+    align-items: center;
+    flex-direction: column;
+}
+
+.modal_img p{
+    text-transform: capitalize;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.modal_img img{
+    width: 142px;
+    height: 170px;
+}
+
+
+.modal_text {
+    width: 324px;
+    margin-top: 32px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.close_button{
+    cursor: pointer;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 24px;
+    background: none;
+    border: none;
+    color: white;
+}
